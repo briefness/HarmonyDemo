@@ -29,7 +29,7 @@
 1.  **克隆项目**
 
     ```bash
-    git clone <repository-url>
+    git clone git@github.com:briefness/HarmonyDemo.git
     ```
 
 2.  **打开项目**
