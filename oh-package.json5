@@ -1,7 +1,7 @@
 
 {
   "modelVersion": "6.0.2",
-  "description": "Please describe the basic information.",
+  "description": "HarmonyOS NEXT 开发者系列教程",
   "dependencies": {
     "@kit.ArkUI": "1.0.0",
     "@kit.MediaKit": "1.0.0",
