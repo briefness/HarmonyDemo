@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Demo</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; text-align: center; }
+        .btn { padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; margin: 10px; }
+        #message { margin-top: 20px; color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>H5 Page</h1>
+    <p>This page is loaded inside HarmonyOS Web Component.</p>
+    
+    <button class="btn" onclick="callNative()">Call Native (ArkTS)</button>
+
+    <div id="message"></div>
+
+    <script>
+        function callNative() {
+            // 'bridge' is the object name registered in ArkTS
+            if (window.bridge && window.bridge.callNative) {
+                const result = window.bridge.callNative("Hello from H5!");
+                document.getElementById('message').innerText = "Result from Native: " + result;
+            } else {
+                document.getElementById('message').innerText = "Bridge not found!";
+            }
+        }
+
+        function changeColor(color) {
+            document.body.style.backgroundColor = color;
+            return "Color changed to " + color;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@kit.ArkUI": "1.0.0",
+    "@kit.MediaKit": "1.0.0",
+    "@kit.AudioKit": "1.0.0",
+    "@kit.ArkWeb": "1.0.0",
+    "@kit.RemoteCommunicationKit": "1.0.0",
+    "@kit.ArkData": "1.0.0",
+    "@kit.AbilityKit": "1.0.0",
+    "@kit.ArkTS": "1.0.0",
+    "@kit.NotificationKit": "1.0.0",
+    "@kit.LocationKit": "1.0.0",
+    "@kit.BasicServicesKit": "1.0.0"
+  }
+}
+

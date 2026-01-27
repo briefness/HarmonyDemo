@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/DrawingPage",
+    "pages/MediaPage",
+    "pages/WebPage",
+    "pages/AnimationsPage",
+    "pages/NetworkPage",
+    "pages/DataPage",
+    "pages/SystemPage",
+    "pages/PerformancePage"
+  ]
+}
