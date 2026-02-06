@@ -8,6 +8,8 @@
     "pages/NetworkPage",
     "pages/DataPage",
     "pages/SystemPage",
-    "pages/PerformancePage"
+    "pages/PerformancePage",
+    "pages/UniqueInteractionsPage",
+    "pages/SmartFeaturesPage"
   ]
 }

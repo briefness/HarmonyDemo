@@ -100,6 +100,28 @@ struct Index {
         }
         .width('100%')
         .align(Alignment.Center)
+
+        ListItem() {
+          Button('Unique Interactions Demo (Art. 7)')
+            .width('80%')
+            .height(50)
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/UniqueInteractionsPage' });
+            })
+        }
+        .width('100%')
+        .align(Alignment.Center)
+
+        ListItem() {
+          Button('Smart Features Demo (Art. 8)')
+            .width('80%')
+            .height(50)
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/SmartFeaturesPage' });
+            })
+        }
+        .width('100%')
+        .align(Alignment.Center)
       }
       .width('100%')
     }
